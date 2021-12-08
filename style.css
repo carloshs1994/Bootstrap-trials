@@ -11,6 +11,10 @@
     color: rgba(245, 88, 0, 1);
 }
 
+.Max-Z-index {
+    z-index: 2;
+}
+
 .presentation {
     background-color: rgba(28, 26, 25, 1);
     background-image: url(assets/Illustration-header-big.png);
@@ -38,4 +42,8 @@
     background-color: rgba(224, 83, 4, 1);
     box-shadow: none;
     color: rgba(255, 255, 225, 1); 
+}
+
+.tag-background {
+    background: rgba(255, 255, 255, 0.24);
 }
