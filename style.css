@@ -4,3 +4,9 @@
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
+
+.title {
+    font-family: "Crete Round", sans-serif;
+    font-size: 72px;
+    color: rgba(245, 88, 0, 1);
+}

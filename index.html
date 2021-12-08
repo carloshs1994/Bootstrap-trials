@@ -17,12 +17,12 @@
   </head>
   <body class="h-100">
     <header>
-      <nav class="nav bg-dark">
+      <nav class="position-fixed w-100 nav bg-dark">
         <ul class="container-fluid nav p-3 fontTheme1 h5">
-          <li class="nav-item col-6 text-center"><a class="nav-link text-light" href="#Presentation">John Doe</a></li>
-          <li class="nav-item col-6">
+          <li class="nav-item col-4 container px-0"><a class="nav-link text-light px-0" href="#Presentation">John Doe</a></li>
+          <li class="nav-item col-5">
             <ul class="container-fluid nav justify-content-center">
-              <li class="nav-item"><a class="nav-link text-light">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#Portfolio">Portfolio</a></li>
               <li class="nav-item"><a class="nav-link text-light">About</a></li>
               <li class="nav-item"><a class="nav-link text-light">Contact</a></li>
               <li class="nav-item"><a class="nav-link"><img src="assets/Envelope.png" alt="Send an e-mail"></a></li>
@@ -33,17 +33,23 @@
     </header>
     <section class="d-flex bg-dark text-light h-100 align-content-center" id="Presentation">
       <ul class="nav flex-column col-1 justify-content-center align-content-center">
-        <li><a href="#"><img src="assets/github.svg" alt="github.com icon"></a></li>
-        <li><a href="#"><img src="assets/Linkedin-icon.svg" alt="Linkedin.com icon"></a></li>
-        <li><a href="#"><img src="assets/angel-list.svg" alt="angelist.com icon"></a></li>
-        <li><a href="#"><img src="assets/twitter.svg" alt="twitter.com icon"></a></li>
-        <li><a href="#"><img src="assets/medium.svg" alt="medium.com icon"></a></li>
+        <li class="pb-2"><a href="#"><img src="assets/github.svg" alt="github.com icon"></a></li>
+        <li class="pb-2"><a href="#"><img src="assets/Linkedin-icon.svg" alt="Linkedin.com icon"></a></li>
+        <li class="pb-2"><a href="#"><img src="assets/angel-list.svg" alt="angelist.com icon"></a></li>
+        <li class="pb-2"><a href="#"><img src="assets/twitter.svg" alt="twitter.com icon"></a></li>
+        <li class="pb-2"><a href="#"><img src="assets/medium.svg" alt="medium.com icon"></a></li>
       </ul>
-      <div class="d-flex flex-column justify-content-center col-4 align-content-center">
-        <h1>Hey There.<br> I'm John Doe</h1>
-        <h2 class="h3">I'm a Software Developer</h2>
-        <p class="h5">I can help you build a product , feature or website Look through some of my work and experience! If you 
+      <div class="d-flex flex-column justify-content-center col-4 align-content-center fontTheme1 mx-5">
+        <h1 class="pb-2 title">Hey There.<br> I'm John Doe</h1>
+        <h2 class="h3 pb-2">I'm a Software Developer</h2>
+        <p class="h5 pb-2">I can help you build a product , feature or website Look through some of my work and experience! If you 
           like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      </div>  
+    </section>
+    <section id="Portfolio">
+      <div>
+        <h1 class="p-5 m-5 col-4"> My Recent Works </h1>
+        <hr class="container-fluid col-8 bg-dark">
       </div>
     </section>
   </body>
