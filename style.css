@@ -10,3 +10,32 @@
     font-size: 72px;
     color: rgba(245, 88, 0, 1);
 }
+
+.presentation {
+    background-color: rgba(28, 26, 25, 1);
+    background-image: url(assets/Illustration-header-big.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+}
+
+.fw-400 {
+    font-weight: 400; 
+}
+
+.btn-primary {
+    background-color: rgba(245, 88, 0, 1);
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 245, 225, 1);
+    border: 1px solid rgba(245, 88, 0, 1);
+    color: rgba(245, 88, 0, 1);
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: rgba(224, 83, 4, 1);
+    box-shadow: none;
+    color: rgba(255, 255, 225, 1); 
+}
