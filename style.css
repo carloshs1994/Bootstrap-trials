@@ -17,10 +17,6 @@
 
 .presentation {
     background-color: rgba(28, 26, 25, 1);
-    background-image: url(assets/Illustration-header-big.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto;
 }
 
 .fw-400 {
@@ -29,6 +25,8 @@
 
 .btn-primary {
     background-color: rgba(245, 88, 0, 1);
+    border: none;
+    border-radius: 0;
 }
 
 .btn-primary:hover {
@@ -46,4 +44,12 @@
 
 .tag-background {
     background: rgba(255, 255, 255, 0.24);
+}
+
+.my-6 {
+    margin: 130px 0;
+}
+
+.pt-6{
+    padding-top:100px;
 }
