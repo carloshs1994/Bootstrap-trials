@@ -50,6 +50,15 @@
     margin: 130px 0;
 }
 
+.mtb-6 {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 .pt-6{
     padding-top:100px;
+}
+
+.mw-75 {
+    max-width: 75%;
 }
