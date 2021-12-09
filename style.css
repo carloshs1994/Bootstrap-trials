@@ -1,64 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 .fontTheme1 {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
 .title {
-    font-family: "Crete Round", sans-serif;
-    font-size: 72px;
-    color: rgba(245, 88, 0, 1);
+  font-family: "Crete Round", sans-serif;
+  font-size: 72px;
+  color: rgba(245, 88, 0, 1);
 }
 
 .Max-Z-index {
-    z-index: 2;
+  z-index: 2;
 }
 
 .presentation {
-    background-color: rgba(28, 26, 25, 1);
+  background-color: rgba(28, 26, 25, 1);
 }
 
 .fw-400 {
-    font-weight: 400; 
+  font-weight: 400;
 }
 
 .btn-primary {
-    background-color: rgba(245, 88, 0, 1);
-    border: none;
-    border-radius: 0;
+  background-color: rgba(245, 88, 0, 1);
+  border: none;
+  border-radius: 0;
 }
 
 .btn-primary:hover {
-    background-color: rgba(255, 245, 225, 1);
-    border: 1px solid rgba(245, 88, 0, 1);
-    color: rgba(245, 88, 0, 1);
+  background-color: rgba(255, 245, 225, 1);
+  border: 1px solid rgba(245, 88, 0, 1);
+  color: rgba(245, 88, 0, 1);
 }
 
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: rgba(224, 83, 4, 1);
-    box-shadow: none;
-    color: rgba(255, 255, 225, 1); 
+  background-color: rgba(224, 83, 4, 1);
+  box-shadow: none;
+  color: rgba(255, 255, 225, 1);
 }
 
 .tag-background {
-    background: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .my-6 {
-    margin: 130px 0;
+  margin: 130px 0;
 }
 
 .mtb-6 {
-    margin-top: 130px;
-    margin-bottom: 130px;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
-.pt-6{
-    padding-top:100px;
+.pt-6 {
+  padding-top: 100px;
 }
 
 .mw-75 {
-    max-width: 75%;
+  max-width: 75%;
 }
