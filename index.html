@@ -49,8 +49,9 @@
     <header>
       <nav class="position-fixed w-100 nav bg-dark Max-Z-index">
         <ul class="container-fluid nav p-3 fontTheme1 h5">
-          <li class="nav-item col-4 container px-0"><a class="nav-link text-light px-0" href="#Presentation">John Doe</a></li>
-          <li class="nav-item col-5">
+          <li class="nav-item col-4 col-sm-3 col-lg-4 container px-0"><a class="nav-link text-light px-0" href="#Presentation">John Doe</a></li>
+          <li class="nav-item d-md-none container col-1"><button type="button" class="btn btn-dark"><img src="assets/Union.png" alt="Menu"></button></li>
+          <li class="nav-item col-7 d-none d-md-block">
             <ul class="container-fluid nav justify-content-center">
               <li class="nav-item"><a class="nav-link text-light" href="#Portfolio">Portfolio</a></li>
               <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
@@ -61,15 +62,15 @@
         </ul>
       </nav>
     </header>
-    <section class="d-flex text-light h-100 align-content-center presentation" id="Presentation">
-      <ul class="nav flex-column col-1 justify-content-center align-content-center">
-        <li class="pb-2"><a href="#"><img src="assets/github.svg" alt="github.com icon"></a></li>
-        <li class="pb-2"><a href="#"><img src="assets/Linkedin-icon.svg" alt="Linkedin.com icon"></a></li>
-        <li class="pb-2"><a href="#"><img src="assets/angel-list.svg" alt="angelist.com icon"></a></li>
-        <li class="pb-2"><a href="#"><img src="assets/twitter.svg" alt="twitter.com icon"></a></li>
-        <li class="pb-2"><a href="#"><img src="assets/medium.svg" alt="medium.com icon"></a></li>
+    <section class="d-flex flex-column-reverse flex-lg-row text-light h-100 justify-content-center justify-content-lg-start align-items-center presentation" id="Presentation">
+      <ul class="nav flex-lg-column col-8 col-lg-1 justify-content-center align-content-center">
+        <li class="pe-2 pb-md-2"><a href="#"><img src="assets/github.svg" alt="github.com icon"></a></li>
+        <li class="pe-2 pb-md-2"><a href="#"><img src="assets/Linkedin-icon.svg" alt="Linkedin.com icon"></a></li>
+        <li class="pe-2 pb-md-2"><a href="#"><img src="assets/angel-list.svg" alt="angelist.com icon"></a></li>
+        <li class="pe-2 pb-md-2"><a href="#"><img src="assets/twitter.svg" alt="twitter.com icon"></a></li>
+        <li class="pe-2 pb-md-2"><a href="#"><img src="assets/medium.svg" alt="medium.com icon"></a></li>
       </ul>
-      <div class="d-flex flex-column justify-content-center col-4 align-content-center fontTheme1 mx-5">
+      <div class="d-flex flex-column justify-content-center col-8 col-lg-4 align-content-center fontTheme1 mx-5">
         <h1 class="pb-2 title">Hey There.<br> I'm John Doe</h1>
         <h2 class="h3 pb-2">I'm a Software Developer</h2>
         <p class="h5 pb-2">I can help you build a product , feature or website Look through some of my work and experience! If you 
@@ -77,17 +78,17 @@
       </div>  
     </section>
     <section id="Portfolio">
-      <div class="container d-flex col-11 align-content-center">
-        <h1 class="col">  My Recent Works </h1>
-        <hr class="col-5 container-fluid flex-grow-1 border border-dark border-3 my-auto mx-0">
+      <div class="container d-flex flex-column flex-xl-row col-11 align-content-center">
+        <h1 class="col text-center">  My Recent Works </h1>
+        <hr class="col-12 col-xl-5 container-fluid flex-grow-1 border border-dark border-3 mb-3 my-xl-auto mx-0">
       </div>
       <div class="container">
         <div class="row card mb-3" style="max-width: 100%;">
           <div class="row g-0">
-            <div class="col-md-8">
+            <div class="col-lg-6 col-xl-8">
               <img src="assets/ImgPlaceholder.svg" class="img-fluid rounded-start w-100" alt="...">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-6 col-xl-4">
               <div class="card-body">
                 <h2 class="card-title h1 mb-4">Multi-Post Stories</h2>
                 <p class="card-text h5 fw-400 mb-4">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the 
@@ -115,7 +116,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>    
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -130,7 +131,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>     
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -145,7 +146,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>    
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -160,7 +161,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>     
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -175,7 +176,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>    
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -190,7 +191,7 @@
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">bootstrap</span></p>    
                   <p class="h5"><span class="badge text-light p-3 me-3 tag-background">Ruby</span></p>    
                 </div>
-                <button type="button" class="btn btn-primary p-3 w-100">See Project</button>
+                <button type="button" class="btn btn-primary p-3 w-100" data-bs-toggle="modal" data-bs-target="#projectExample">See Project</button>
               </div>
             </div>
           </div>
@@ -205,7 +206,7 @@
         <button type="button" class="btn btn-primary p-2 my-4">Get My Resume</button>
         <hr class="container-fluid border border-light border-1 my-6">
       </div>
-      <ul class="container p-5 nav justify-content-between">
+      <ul class="container p-5 nav flex-column flex-lg-row align-items-center justify-content-between">
         <li class="nav-item d-flex align-items-baseline flex-column">
           <h2 class="text-light mb-3"><span><img src="assets/Rectangle55.png"></span> Languages</h2>
           <ul class="nav flex-column">
